@@ -1,0 +1,205 @@
+::selection {
+    background-color: aqua;
+    color: black;
+}
+.name{
+color: aqua;
+font-size: 3vw;
+font-family: "Berlin sans FB";
+padding: 7%;
+}
+.mainrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.icon{
+    margin: 1.5vw;
+}
+.icon path {
+    fill: aqua; 
+    transition: fill 0.3s; 
+  }
+  
+  .icon:hover path {
+    fill: #F8381B; 
+  }
+.horizontal_line{
+width: 100%;
+height: 0.5vh;
+background-color: aqua;
+}
+.image{
+    position: relative;
+    width: 50vw;
+    height: auto;
+    left: -5vw;
+}
+.row1{
+    display: flex;
+}
+#one{
+    color: #2893E8;
+    font-size: 2vw;
+    font-family: "Arial Black", sans-serif;
+}
+#one::selection{
+    background-color: rgba(40, 147, 232, 0.5);
+    color:#2893E8 ;
+}
+#two{
+    color: aqua;
+    font-size: 2.2vw;
+    font-family: "Arial Black", sans-serif;
+}
+
+#three{
+    color: #2893E8;
+    font-size: 1.5vw;
+    font-family: "Arial Black", sans-serif;
+    position: relative;
+    left: -3vw;
+}
+#success{
+    width: 30vw;
+    height: auto; 
+    position: relative;
+    left: 15vw;
+    -webkit-user-drag: none;
+}
+body{
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+#four{
+    color: #2893E8;
+    font-size: 2.2vw;
+    font-family: "Arial Black", sans-serif;
+    margin-right: 3vw;
+}
+.line{
+    display: flex;
+}
+
+ #exploreButton:hover {
+    content: "Academics";
+    color: #48ff00;
+  }  
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+iframe {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+.object{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.picture{
+    justify-content: center;
+    width: 90%;
+    height: 40%;
+    border-radius:2vw;
+}
+.abi{
+    flex-direction: column;
+    text-align: center;
+}
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.dabba{
+    background-color: #484848;
+    width: 23vw;
+    height: 50vh;
+    border-radius: 2vw;
+    transition: border-image 0.5s;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    font-family: "Papyrus", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 10VH;
+}
+.dabba:hover {
+    transform: translate(5px, 5px);
+    }
+    .bttn{
+        width: 10vw;
+        height: 5.5vh;
+        background-color: #484848;
+        font-family: "Arial black", sans-serif;
+        position: relative;
+        left: 28%;
+        margin-top: 9%;
+        border-radius: 2vw;
+        color: white;
+        font-size: 1.3vw;
+        text-align: center;
+        justify-self: center;
+        text-decoration: none;
+    }
+.bttn:hover{
+    background-color:black ;
+}
+ .link {
+    color: inherit;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+}
+.footerone{
+    background-color: #191C27;
+    height: 6vh;
+    width: 100vw;
+    margin-left: 0.3vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   border-radius: 1vw;
+   color: white;
+}
+.zero{
+    display: flex;
+    position: relative;
+    left: 35vw;
+}
+ .pic{
+ margin-right: 2vw;
+ position: relative;
+ bottom: -10px;
+ margin-left: 0.5vw;
+  }
+.pic:hover path {
+    fill: aqua; 
+  }
+  .mn{
+    position: relative;
+    left:-33vw;
+  }

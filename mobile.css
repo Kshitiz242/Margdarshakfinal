@@ -349,13 +349,13 @@ iframe {
 }
 #about{
     position: relative;
-    top: -7.5px;
-    left: 4px;
+    top: -8px;
+    left: 15px;
 }
 #work{
     position: relative;
-    top: -7.5px;
-    left: 5px;
+    top: -10px;
+    left: 25px;
 }
 .logo{
     display: flex;

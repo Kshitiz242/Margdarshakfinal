@@ -514,7 +514,23 @@ l-306 0 6 88 c9 136 -26 122 312 122 280 0 293 1 310 20 25 28 23 76 -4 103
      }
      list.forEach((item) =>
      item.addEventListener('click',activeLink));
+var delayedLinks = document.querySelectorAll('.delayedlink');
+    var clickCount = 0;
 
+    for (var i = 0; i < delayedLinks.length; i++) {
+        delayedLinks[i].addEventListener('click', function(event) {
+            clickCount++;
+
+            if (clickCount === 2) {
+                // If the link is double-clicked, open the link.
+                window.location.href = this.getAttribute('href');
+                clickCount = 0; // Reset the click count.
+            }
+
+            // Prevent the default link behavior for single clicks.
+            event.preventDefault();
+        });
+    }
 
 </script>
 </body>
